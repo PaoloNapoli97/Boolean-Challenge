@@ -1,0 +1,75 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container{
+  display: block;
+  width: 1250px;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.logo{
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+.logo-title{
+  text-align: center;
+  color: #00dd00;
+}
+
+.margini{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/* Utilizzo di un background e di un border per centrare le scritte rispetto al blocco
+   Sono sicuro che esista un modo migliore ma non sono riuscito ad applicare le mie ricerche
+   Su questa particolare task, non ho il controllo totale del testo rispetto al div*/
+.button{
+  background-color: #00dd00;
+  text-align: center;
+  border: 10px solid #00dd00;
+}
+
+h2{
+  color: white;
+  display: inline-block;
+}
+
+.monopattini{
+  color: white;
+}
+
+.loading-gino{
+  display: block;
+  background-color: #bb7900;
+  width: 350px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.loading-mike{
+  display: block;
+  background-color: green;
+  width: 600px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.loading-fede{
+  display: block;
+  background-color: #621e1e;
+  width: 150px;
+  height: 30px;
+  border-radius: 6px;
+}
